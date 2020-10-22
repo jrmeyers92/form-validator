@@ -1,0 +1,51 @@
+*,
+html {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+	font-size: 1rem;
+}
+
+.inputs {
+	/* width: 100%; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* fieldset {
+	margin: 10rem;
+	font-size: 1rem;
+}
+
+legend {
+	text-align: center;
+	font-size: 2rem;
+}
+
+.inputs {
+	display: flex;
+	flex-direction: column;
+}
+
+.set {
+	display: flex;
+	justify-content: space-around;
+}
+
+.label {
+	justify-self: flex-start;
+	align-self: flex-start;
+} */
