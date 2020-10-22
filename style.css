@@ -19,9 +19,17 @@ form {
 }
 
 .inputs {
-	/* width: 100%; */
+	width: 30%;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
+	padding: 2rem;
+	border: 2px solid black;
+}
+
+.set {
+	margin: 0.4rem;
+	display: flex;
 	justify-content: space-between;
 }
 
